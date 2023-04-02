@@ -1,0 +1,93 @@
+ion-content{
+    --background:#afadb9;
+  }
+  .header{
+    height: 33%;
+    background: #7972e6;
+    border-radius: 0px 0px  20px 20px;
+    display: flex;
+    color: #fff;
+    padding-bottom: 30px;
+  }
+  .app-bar{
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  ion-icon{
+    font-size: 24px;
+    margin-left: 15px;
+  }
+  .logo{
+    
+    
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    align-self: center;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+  }
+  img{
+    width: 70%;
+    
+  }
+  .info{
+    margin-top: 250px;
+    margin-left: -15px;
+  }
+  h1{
+    font-size: 19px;
+    font-weight: 700;
+  }
+  p{
+    font-size:15px;
+    line-height: 1.4;
+  }
+  .form{
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    right: 4%;
+  
+  }
+  .form-card{
+    box-shadow:   12px 14px 14px solid black;
+    border-radius: 20px;
+    border:2px groove #7972e6;
+    padding: 15px 10px;
+    --background:#efefef;
+    backdrop-filter: blur(300px);
+  }
+  ion-item{
+    --background:#efefef;
+    --color:black;
+    --padding-start:-15px ;
+  }
+  .form-card ion-icon{
+    --background:rgb(101, 97, 97);
+    margin-right: 14px;
+  }
+  ion-button{
+    margin-top: 30px;
+    --background:#7972e6;
+  }
+  .generate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  //.success {
+   // background-color: green;
+  //  color: white;<button (click)="buttonClicked = !buttonClicked" [ngClass]="{'success': buttonClicked}">
+ // <ion-icon *ngIf="buttonClicked" name="checkmark"></ion-icon>
+ // Verify
+//</button>
+ // }
+  
