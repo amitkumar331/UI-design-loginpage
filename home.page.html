@@ -1,0 +1,58 @@
+<ion-content>
+  
+  <div class="header">
+   <div class="app-bar">
+    <ion-icon name="arrow-back" slot="start"></ion-icon>
+    <div class="logo">
+      <img src="assets/logolpu.png" alt="" >
+    </div>
+    <div class="info"><h1>Sign in</h1>
+      <p>Sign in to generate your QR code</p>
+    
+    </div>
+    
+   </div>
+  
+   
+  </div>
+ <form>
+  <div class="form">
+ <ion-card class="form-card"  >
+  <ion-card-content>
+    <ion-item >
+    <ion-icon name="person-outline" color="gray"></ion-icon>
+    <ion-input type="text" placeholder="First name" required></ion-input>
+    </ion-item >
+    <ion-item >
+      <ion-icon name="person-outline" color="gray"></ion-icon>
+      <ion-input type="text" placeholder="Last name" required></ion-input>
+      </ion-item >
+      <ion-item >
+        <ion-icon name="mail" color="black"></ion-icon>
+        <ion-input type="Email" placeholder="email@domain.com" required></ion-input>
+        </ion-item >
+    
+      <ion-item >
+        <ion-icon name="person-outline" color="b"></ion-icon>
+        <ion-label>Gender</ion-label>
+        <ion-select>
+          <ion-select-option value="male">Male</ion-select-option>
+          <ion-select-option value="female">Female</ion-select-option>
+          <ion-select-option value="female">Others</ion-select-option>
+        </ion-select>
+      </ion-item>
+     
+      <ion-item>
+        <ion-icon name="call-outline" color="black" ></ion-icon>
+        <ion-input inputmode="numeric" type="tel" placeholder="888-888-8888" required></ion-input>
+      </ion-item >
+      
+     <ion-button type="submit" (click)="goToSecondPage()" expand="block">Next</ion-button>
+     
+  
+  </ion-card-content>
+ </ion-card>
+
+  </div>
+  </form>
+</ion-content>

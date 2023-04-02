@@ -1,0 +1,44 @@
+<ion-content>
+  
+  <div class="header">
+   <div class="app-bar">
+    <ion-icon name="arrow-back" slot="start" (click)="goback()"></ion-icon>
+    <div class="logo">
+      <img src="assets/logolpu.png" alt="" >
+    </div>
+    <div class="info"><h1>OTP </h1>
+      <p>Varification</p>
+    
+    </div>
+    
+   </div>
+  
+   
+  </div>
+ <form>
+  <div class="form">
+ <ion-card class="form-card"  >
+  <ion-card-content>
+   
+    <ion-item>
+      <ion-label position="floating">Enter OTP sent to your email</ion-label>
+      <ion-input type="tel" name="otp" maxlength="6"></ion-input>
+    </ion-item>
+    <ion-button style="height: 30px;margin-left: 40px;">Send OTP</ion-button>
+    <ion-button style="height: 30px; margin-left: 50px;">Varify</ion-button>
+    <ion-item>
+      <ion-label position="floating">Enter OTP sent to your number</ion-label>
+      <ion-input type="tel" name="otp" maxlength="6"></ion-input>
+    </ion-item>
+    <ion-button style="height: 30px;margin-left: 40px; ">Send OTP</ion-button>
+    <ion-button style="height: 30px; margin-left: 50px;">Varify</ion-button>
+<div class="generate"> <ion-button>GENERATE QR</ion-button></div>
+     
+
+  
+  </ion-card-content>
+ </ion-card>
+
+  </div>
+  </form>
+</ion-content>
